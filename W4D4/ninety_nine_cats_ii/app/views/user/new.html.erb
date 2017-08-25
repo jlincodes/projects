@@ -1,0 +1,23 @@
+<section class="page">
+  <h1>New User</h1>
+
+  <%= render "layouts/errors" %>
+
+  <form action="<%= users_url %>" method="post">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+    <% if action == :new %>
+
+    Username:
+    <input type="text" name="user[user_name]" value="<%= @user.user_name %>" >
+
+    <br>
+
+    Password:
+    <input type="password" name="user[password]" value="<%= @user.password %>">
+
+    <br>
+
+    <input type="submit" value="Submit">
+  </form>
+</section>
