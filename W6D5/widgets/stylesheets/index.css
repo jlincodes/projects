@@ -1,0 +1,22 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url('https://tombuchheim.files.wordpress.com/2011/06/shaq.jpg');
+  background-repeat: repeat;
+  background-size: 75px 120px;
+}
+
+.clock {
+  display: flex;
+  justify-content: space-between;
+  background-color: #8585ad;
+  padding: 0 10px;
+  border: 1px solid black;
+}
+
+.weather {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffe066;
+  padding: 0 10px;
+  border: 1px solid black;
+}
