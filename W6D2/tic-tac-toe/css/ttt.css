@@ -1,0 +1,40 @@
+.ttt li {
+  float:left;
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+}
+
+li {
+  background-color: gray;
+}
+.ttt ul {
+  list-style: none;
+  width: 186px;
+  display: block;
+  float: none;
+}
+.ttt li:hover {
+  background-color: yellow;
+}
+
+.marked {
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.winner {
+  background-color: green;
+  color: white;
+}
+
+.loser {
+  color: red;
+}
+
+figcaption {
+  display: block;
+}
