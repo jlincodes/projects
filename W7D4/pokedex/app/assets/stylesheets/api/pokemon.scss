@@ -1,0 +1,93 @@
+// Place all the styles related to the Api::Pokemon controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.pokelist {
+  overflow: scroll;
+  width: 300px;
+  padding: 0 10px 0 0;
+}
+
+.pokelist li {
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-class {
+  margin: 0 10px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.Pokedex {
+  display: flex;
+  height: 100%;
+}
+
+.display-image {
+  height: 400px;
+}
+
+.display-div {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  background: #c9c9c9;
+  border: 4px solid black;
+  border-radius: 8px;
+}
+
+.display-div li {
+  text-align: center;
+  list-style: none;
+}
+
+figure {
+  border: 4px solid black;
+  border-radius: 8px;
+  width: 700px;
+  text-align: center;
+  padding: 20px;
+  background: -webkit-linear-gradient(315deg, #a0c5e7, #7263ce);
+}
+
+.poke-details {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.items-list {
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px solid black;
+  border-radius: 8px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.items-list li {
+  padding: 10px 0;
+  color: black;
+  margin: 15px;
+}
+
+.item-img-class {
+  width: 70px;
+}
+
+.item-details {
+  display: none;
+}
+
+.items-details :active {
+  display: flex;
+}
